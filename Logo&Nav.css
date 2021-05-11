@@ -1,0 +1,27 @@
+.header {
+    text-align: center;
+    color: black;
+}
+
+.categories {
+    background-color: lightgrey;
+    line-height: 2;
+}
+
+.categories a {
+    color: black; 
+    padding: 20px;
+    text-decoration: none;
+}
+
+.categories a.right {
+    float: right;
+    padding: 0;
+}
+
+.categories a:hover {
+    color: white;
+}
+
+
+
