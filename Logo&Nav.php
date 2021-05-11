@@ -16,6 +16,7 @@
             </div>
 
             <div class="categories">
+                <a href="/webdesign/Webshop/Webshop.php"><b>Home</b></a>
                 <a href="/webdesign/Webshop/category.php/?category=1"><b>Laptops</b></a>
                 <a href="/webdesign/Webshop/category.php/?category=2"><b>Software</b></a>
                 <a href="/webdesign/Webshop/category.php/?category=3"><b>Graphics Cards</b></a>

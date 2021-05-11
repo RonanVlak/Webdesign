@@ -21,22 +21,15 @@ function getCategory($id) {
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        $row = $result->fetch_assoc();
-            $productID = $row["id"]?>
-            
-            <a href=<?php "product.php/?product=".$productID?>><img src=<?php echo "/webdesign/Webshop/".($row["ImgPath"]) ?> width="200" height="90" /> </a>
-    
-            <div class="description">
-                <?php echo ($row["productName"]); ?> <br>
-                <?php echo ("Prijs: " . $row["productPrice"]); ?> <br>
-            </div> <?php
-          
+        $row = $result->fetch_assoc();    
     }
     else {
         echo "Error, no results";
         die();
     }
+    
     $conn->close();
+    return $row;
 }
 ?>
 
