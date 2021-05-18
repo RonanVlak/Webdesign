@@ -8,3 +8,22 @@
     padding: 20px;
 }
 
+.Form {
+    float:left;
+    padding: 20px;
+}
+ .Form b {
+    float:left;
+
+ }
+
+.logout a{
+    float: right;
+    padding: 20px;
+    Color: black;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: white;
+}

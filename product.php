@@ -10,12 +10,11 @@
 <body>
     <?php include_once('Logo&Nav.php'); ?>
     <div class="Product">
-
-
         <h1> Product Details </h1>
 
         <?php $id = $_GET['product'];
         $beschrijving = getProduct($id); ?>
+       
         <img src=<?php echo "/webdesign/Webshop/" . ($beschrijving["ImgPath"]) ?> width="500" height="300" />
 
         <div class="description">

@@ -20,9 +20,9 @@
                 <a href="/webdesign/Webshop/category.php/?category=1"><b>Laptops</b></a>
                 <a href="/webdesign/Webshop/category.php/?category=2"><b>Software</b></a>
                 <a href="/webdesign/Webshop/category.php/?category=3"><b>Graphics Cards</b></a>
-                <a href="#"><b>Category 4</b></a>
-                <a href="#"><b>Category 5</b></a>
-                <a href="#" class="right">My Account</a>
+                <a href="/webdesign/Webshop/category.php/?category=4"><b>Beeldschermen</b></a>
+                <a href="/webdesign/Webshop/category.php/?category=5"><b>Processors</b></a>
+                <a href="/webdesign/Webshop/Account.php/" class="right"><b>My Account</b></a>
             </div>
         </body>
 </html>
